@@ -67,22 +67,22 @@ int main() {                   // chamada do socket
       {
       case '1':
         printf("Acabou a água ");
-        system("canberra-gtk-play -f acabou-a-agua.wav");
+        system("canberra-gtk-play -f acabou-a-agua.mp4");
         break;
       
       case '2':
         printf("Acabou o café");
-        system("canberra-gtk-play -f acabou-o-cafe.wav");
+        system("canberra-gtk-play -f acabou-o-cafe.mp4");
         break;
 
       case '3':
         printf("A água foi abastecida");
-        system("canberra-gtk-play -f agua-abastecida.wav");
+        system("canberra-gtk-play -f agua-abastecida.mp4");
         break;
       
       case '4': 
         printf("O café foi abastecido");
-        system("canberra-gtk-play -f cafe-abastecido.wav");
+        system("canberra-gtk-play -f cafe-abastecido.mp4");
         break;
 
       default:
